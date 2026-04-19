@@ -20,5 +20,7 @@ path('html5/text/formatting', views.formatting, name='formatting'),
 path('html5/listing', views.listing, name='listing' ),
 path('html5/tables', views.tables, name='tables'),
 path('search/', views.search_books, name='search_books'),
+path('simple/query', views.simple_query, name='simple_query'),
+path('complex/query', views.complex_query, name='complex_query'),
 ] 
 
